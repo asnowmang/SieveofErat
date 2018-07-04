@@ -24,12 +24,12 @@ c     Cancel out multiples of three
  30   CONTINUE
 
 c     Cancel out multiples of 5
-      DO 40 COUNT = 10, max, 5
+      DO 40 count = 10, max, 5
          line(count) = 0
  40   CONTINUE
 
 c     Cancel out multiples of 7
-      DO 50 COUNT = 14, max, 7
+      DO 50 count = 14, max, 7
          line(count) = 0
  50   CONTINUE
 

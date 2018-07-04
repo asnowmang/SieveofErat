@@ -33,6 +33,7 @@ c     Cancel out multiples of 7
          line(count) = 0
  50   CONTINUE
 
+c     Print all odds in array
       DO 60 count = 2, max
          IF (line(count) .NE. 0) THEN
             PRINT *, line(count)

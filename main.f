@@ -33,7 +33,7 @@ c     Cancel out multiples of seven
          line(count) = .FALSE.
  50   CONTINUE
 
-c     Print all odds in array
+c     Print all primes in array
       DO 60 count = 2, max
          IF (line(count) .EQV. .TRUE.) THEN
             PRINT *, count
